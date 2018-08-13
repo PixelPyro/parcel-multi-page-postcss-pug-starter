@@ -5,13 +5,13 @@
 
 
 body.home-page{
-	background-color: var(--bg-color);
+	background-color: var(--home-bg-color);
 }
 
 body.about-page{
-	background-color: indianred;
+	background-color: var(--about-bg-color);
 }
 
 body.contact-page{
-	background-color: #b4d455;
+	background-color: var(--contact-bg-color);
 }
