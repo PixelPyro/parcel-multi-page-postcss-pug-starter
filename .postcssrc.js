@@ -1,5 +1,5 @@
 module.exports = {
-  map: true,
+  map: false,
   plugins: {
     "postcss-plugin": {},
     "postcss-utilities": {},

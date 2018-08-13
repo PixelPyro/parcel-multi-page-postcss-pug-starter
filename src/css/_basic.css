@@ -12,7 +12,7 @@ body{
   color: var(--text-color);
   	img{
 		display: block;
-		margin: 20px auto
+		margin: 25px auto
 	}
   	a{
 		margin: 15px;
@@ -21,4 +21,9 @@ body{
     color: var(--text-color);
     font-weight: bold;
 	}
+}
+
+.container{
+  max-width: 550px;
+  margin: 0 auto;
 }
