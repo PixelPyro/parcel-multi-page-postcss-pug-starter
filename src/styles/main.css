@@ -1,11 +1,9 @@
-:root{
-	--bg-color: #b4db55;
-	--text-color: gray;
-	--font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-	
-}
+/* Variables import */
+@import "./_variables";
 
-body{
+
+
+body.home-page{
 	background-color: var(--bg-color);
 	font-family: var(--font-family);
 

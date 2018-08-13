@@ -23,5 +23,8 @@
   "scripts": {
     "build": "parcel build src/*.pug -d build --public-url ./",
     "dev": "parcel src/index.pug"
+  },
+  "dependencies": {
+    "variables": "^1.0.1"
   }
 }
