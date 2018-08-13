@@ -1,0 +1,27 @@
+{
+  "name": "parcel-js",
+  "version": "1.0.0",
+  "description": "webpack, parcel bundler, gulp",
+  "main": "index.js",
+  "repository": "https://github.com/shahidkhans/parcel-js.git",
+  "author": "Shahid",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.3.1",
+    "postcss-circle": "^1.1.0",
+    "postcss-cli": "^4.1.1",
+    "postcss-import": "^12.0.0",
+    "postcss-mixins": "^6.2.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-nesting": "^6.0.0",
+    "postcss-plugin": "^1.0.0",
+    "postcss-simple-vars": "^4.1.0",
+    "postcss-utilities": "^0.8.0",
+    "pug": "^2.0.3",
+    "rucksack-css": "^1.0.2"
+  },
+  "scripts": {
+    "build": "parcel build src/*.pug -d build --public-url ./",
+    "dev": "parcel src/index.pug"
+  }
+}
