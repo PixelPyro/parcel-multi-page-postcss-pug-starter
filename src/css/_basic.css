@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 2em;
+  font-family: var(--font-family);
+  line-height: 25px;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  	img{
+		display: block;
+		margin: 20px auto
+	}
+  	a{
+		margin: 15px;
+		text-decoration: none;
+		font-size: 18px;
+    color: white;
+    font-weight: bold;
+	}
+}

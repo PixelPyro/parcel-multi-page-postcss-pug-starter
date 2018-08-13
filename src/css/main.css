@@ -1,0 +1,17 @@
+/* Variables import */
+@import "./_variables";
+/* Import basic styles */
+@import "./_basic";
+
+
+body.home-page{
+	background-color: var(--bg-color);
+}
+
+body.about-page{
+	background-color: #b4d;
+}
+
+body.contact-page{
+	background-color: skyblue;
+}
