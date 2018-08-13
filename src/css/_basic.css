@@ -9,7 +9,7 @@ body{
   line-height: 25px;
   font-size: 14px;
   text-align: center;
-  color: white;
+  color: var(--text-color);
   	img{
 		display: block;
 		margin: 20px auto
@@ -18,7 +18,7 @@ body{
 		margin: 15px;
 		text-decoration: none;
 		font-size: 18px;
-    color: white;
+    color: var(--text-color);
     font-weight: bold;
 	}
 }
