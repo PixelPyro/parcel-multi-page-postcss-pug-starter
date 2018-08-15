@@ -1,17 +1,6 @@
 /* Variables import */
-@import "./_variables";
+@import "./_vars";
 /* Import basic styles */
 @import "./_basic";
-
-
-body.home-page{
-	background-color: var(--home-bg-color);
-}
-
-body.about-page{
-	background-color: var(--about-bg-color);
-}
-
-body.contact-page{
-	background-color: var(--contact-bg-color);
-}
+/* Import pages styles */
+@import "./_pages";

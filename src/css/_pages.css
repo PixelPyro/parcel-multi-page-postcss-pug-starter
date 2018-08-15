@@ -1,0 +1,17 @@
+/* Home Page Styles */
+
+body.home-page{
+	background-color: var(--home-bg-color);
+}
+
+/* About Page Styles */
+
+body.about-page{
+	background-color: var(--about-bg-color);
+}
+
+/* Contact Page Styles */
+
+body.contact-page{
+	background-color: var(--contact-bg-color);
+}

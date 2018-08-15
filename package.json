@@ -25,6 +25,8 @@
     "dev": "parcel src/index.pug"
   },
   "dependencies": {
+    "basic": "^2.0.3",
+    "pages": "^0.0.16",
     "variables": "^1.0.1"
   }
 }
